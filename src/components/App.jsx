@@ -8,9 +8,9 @@ export class App extends Component {
     bad: 0,
   };
 
-  handleClick = key => {
+  handleClick = option => {
     this.setState(prevState => ({
-      [key]: prevState[key] + 1,
+      [option]: prevState[option] + 1,
     }));
   };
 
